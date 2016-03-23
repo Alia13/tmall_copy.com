@@ -52,7 +52,7 @@ $(document).ready(function(){
                 iNow++;
                 iNow%=oContr.length;
                 fadeImg();
-            }, 4000);
+            }, 5000);
         }
         autoPlay();
 
