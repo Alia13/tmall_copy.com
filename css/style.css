@@ -47,14 +47,16 @@ body { font-size:12px; font-family:"宋体"; background-color: rgb(245,245,245);
 #search .srhText .srhText-submit{ position: absolute;width:90px; height: 36px; border: none; background-color: #c40000;color: white; font-size: 16px;}
 #search .srhContent .srhTag ul{ height: 22px; padding: 4px 0 0;  position: absolute; left:-10px;}
 #search .srhContent .srhTag ul li{display: inline-block;font-size: 14px; padding:0 10px;border-right: 1px solid #999999;}
+#search .srhContent .srhTag ul li{*display:inline;}
 #search .srhContent .srhTag ul li.last{border-right:0;}
 #search .srhContent .srhTag ul li a{color:#c40000; }
 #search .srhContent .srhTag ul li:nth-child(even) a{color:#999999; }
 
 #nav .nTap{ height:36px; background-color:#dd2727; font-weight:bold; font-size: 16px; color: white;vertical-align: middle;}
 #nav .nTap .ntContent .ntc-main-tag{ display:inline-block; width:186px; line-height: 36px; background-color: #c60a0a; padding-left: 14px; }
-#nav .nTap .ntContent ul.ntc-tag { display:inline-block;line-height: 36px;position: absolute;left: 200px;}
+#nav .nTap .ntContent ul.ntc-tag { display:inline-block;line-height: 36px;position: absolute;left: 200px;top: 0px; }
 #nav .nTap .ntContent .ntc-tag li{ display:inline-block;position: relative;text-align:center; width: 120px;}
+#nav .nTap .ntContent .ntc-tag li{ *display: inline; }
 #nav .nTap .ntContent .ntc-tag li a{ color: white; }
 #nav .nTap .ntContent .ntc-tag img.mao{ position: absolute;left: 40px; top: 0px;z-index: -1;}
 #nav .nBottom{ position:relative; height: 500px; width: 100%;background-color:black; }
