@@ -53,10 +53,10 @@ body { font-size:12px; font-family:"宋体"; background-color: rgb(245,245,245);
 
 #nav .nTap{ height:36px; background-color:#dd2727; font-weight:bold; font-size: 16px; color: white;vertical-align: middle;}
 #nav .nTap .ntContent .ntc-main-tag{ display:inline-block; width:186px; line-height: 36px; background-color: #c60a0a; padding-left: 14px; }
-#nav .nTap .ntContent ul.ntc-tag { display:inline-block;line-height: 36px; padding-left: 14px;}
-#nav .nTap .ntContent .ntc-tag li{ display:inline-block;padding:0 25px;}
+#nav .nTap .ntContent ul.ntc-tag { display:inline-block;line-height: 36px;position: absolute;left: 200px;}
+#nav .nTap .ntContent .ntc-tag li{ display:inline-block;position: relative;text-align:center; width: 120px;}
 #nav .nTap .ntContent .ntc-tag li a{ color: white; }
-#nav .nTap .ntContent .ntc-tag img.mao{ position: absolute;top: 0px;z-index: -1;}
+#nav .nTap .ntContent .ntc-tag img.mao{ position: absolute;left: 40px; top: 0px;z-index: -1;}
 #nav .nBottom{ position:relative; height: 500px; width: 100%;background-color:black; }
 #nav .nBottom .nImgs img{ position: absolute;margin:0 auto; height: 500px; width: 100%;}
 #nav .nBottom .nImgs .active{ z-index:2; }
